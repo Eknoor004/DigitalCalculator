@@ -1,11 +1,8 @@
-This folder contains data for incremental compilation.
-
-The compiled_partitions sub-folder contains previous compilation results for each partition.
-As long as this folder is preserved, incremental compilation results from earlier compiles
-can be re-used.  To perform a clean compilation from source files for all partitions, both
-the db and incremental_db folder should be removed.
-
-The imported_partitions sub-folder contains the last imported QXP for each imported partition.
-As long as this folder is preserved, imported partitions will be automatically re-imported
-when the db or incremental_db/compiled_partitions folders are removed.
-
+• Designed a 4‑bit digital binary calculator in Quartus II to perform a diverse set of arithmetic and logical operations, with the goal of creating a
+lab exercise for future students taking this course.
+• Developed software to take two 4‑bit binary numbers as input and produce arithmetic or logic results on the Altera D2 Board.
+• Utilized digital circuit strategies and VHDL code to design arithmetic and logical operations; the final circuit operated with 3 control bits to
+choose from 8 operations: addition, subtraction, multiplication, division, XOR, NAND, AND, and OR.
+• Ensured accurate and reliable operation of the calculator by debugging and refining the VHDL code and circuit design.
+• Successfully created a functional 4‑bit digital calculator, demonstrating strong skills in digital circuit design and VHDL programming, and pro‑
+viding a valuable lab exercise for future students.
